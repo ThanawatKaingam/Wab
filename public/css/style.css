@@ -1,0 +1,107 @@
+.topnav {
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+  }
+  
+  .topnav a {
+	float: center;
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+  }
+  
+  .topnav input[type="text"] {
+	float: left;
+	padding: 6px;
+	border: rgb(255, 255, 255);
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+  }  
+form.search {
+	position: absolute;
+	top: 15px; right: 5px;
+	padding: 0; margin: 0;
+	border: none;
+	background-color: transparent; 
+}
+form.search input.textbox { 
+	margin: 0; 
+	width: 500px;
+	border: 1px solid #CCC; 
+	background: #FFF;
+	color: #333; 	
+	vertical-align: top;
+}
+form.search input.button {
+	width: 60px;
+	vertical-align: top;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sriracha', cursive;
+
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.info1 {
+    width: 100%;
+    height: 400px;
+}
+
+.info1_area img {
+    margin-top: 80px;
+    float: left;
+}
+.info1_area h1 {
+    margin: 0;
+}
+.info2_area img {
+    margin-top: 80px;
+    float: left;
+}
+.info2_area h1 {
+    margin: 0;
+}
+
+
+
+.info3 {
+    width: 100%;
+    height: 400px;
+}
+
+.info3_area img {
+    margin-top: 80px;
+    float: left;
+}
+.info3_area h1 {
+    margin: 0;
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    margin-top: 100px;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+}
+footer p {
+    margin: 0;
+}
